@@ -1,0 +1,7 @@
+#Sun Nov 06 15:39:31 IST 2016
+base.0=F\:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_47e1c6b01396705e946f929f72001ed08f3d4282
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5d6809a7fdfe68ccba833a6afda72c44ea09047c\\classes.dex
+base.1=F\:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5d6809a7fdfe68ccba833a6afda72c44ea09047c
+file.0=F\:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_47e1c6b01396705e946f929f72001ed08f3d4282\\classes.dex

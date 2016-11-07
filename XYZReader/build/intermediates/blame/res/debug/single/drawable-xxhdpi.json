@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo.png",
+        "source": "F:\\Udacity\\My Projects\\xyzreader\\XYZReader\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "F:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share.png",
+        "source": "F:\\Udacity\\My Projects\\xyzreader\\XYZReader\\src\\main\\res\\drawable-xxhdpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\Udacity\\My Projects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back.png",
+        "source": "F:\\Udacity\\My Projects\\xyzreader\\XYZReader\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_back.png"
+    }
+]
