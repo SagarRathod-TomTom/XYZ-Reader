@@ -20,6 +20,8 @@
             android:layout_height="?actionBarSize"
             android:background="?selectableItemBackgroundBorderless"
             android:contentDescription="@string/up"
-            android:src="@drawable/ic_arrow_back" />
+            android:src="@drawable/ic_arrow_back"
+            android:fitsSystemWindows="true"
+            android:adjustViewBounds="true"/>
     </FrameLayout>
 </FrameLayout>
