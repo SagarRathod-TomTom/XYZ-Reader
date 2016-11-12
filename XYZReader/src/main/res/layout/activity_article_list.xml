@@ -18,7 +18,9 @@
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:layout_gravity="bottom">
+            android:layout_gravity="bottom"
+            app:titleTextAppearance="@style/Toolbar.TitleTextSize">
+
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>

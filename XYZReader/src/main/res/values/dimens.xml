@@ -1,4 +1,7 @@
 <resources>
+    
+    <dimen name="appbar_title_size">20sp</dimen>
+    
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
