@@ -13,6 +13,7 @@ import android.text.format.Time;
 import android.util.Log;
 
 import com.example.xyzreader.remote.RemoteEndpointUtil;
+import com.example.xyzreader.remote.Util;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -28,6 +29,9 @@ public class UpdaterService extends IntentService {
     public static final String EXTRA_REFRESHING
             = "com.example.xyzreader.intent.extra.REFRESHING";
 
+    public static final String NO_INTERNET =
+            "com.example.xyzreader.intent.extra.NO_INTERNET";
+
     public UpdaterService() {
         super(TAG);
     }
@@ -36,12 +40,11 @@ public class UpdaterService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         Time time = new Time();
 
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
-        NetworkInfo ni = cm.getActiveNetworkInfo();
-        if (ni == null || !ni.isConnected()) {
+        if (!Util.isNetworkAvailable(this)) {
             Log.w(TAG, "Not online, not refreshing.");
+            sendStickyBroadcast(new Intent(NO_INTERNET));
             return;
-        }
+    }
 
         sendStickyBroadcast(
                 new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, true));

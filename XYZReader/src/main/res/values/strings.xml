@@ -8,4 +8,6 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+
+    <string name="network_unavailable">Please Check Your Internet Connection.</string>
 </resources>
