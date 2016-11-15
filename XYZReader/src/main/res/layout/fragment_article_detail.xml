@@ -103,7 +103,7 @@
         android:layout_height="56dp"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
-        app:pressedTranslationZ="@dimen/fab_press_translation_z"
+        android:stateListAnimator="@anim/fab_state_list_anim"
         android:contentDescription="@string/action_share"
         app:layout_behavior="com.example.xyzreader.ui.FABScrollingBehaviour"/>
 

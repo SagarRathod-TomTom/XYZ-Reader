@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   Copyright 2015 Google Inc.
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +14,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_enabled="true"
@@ -22,7 +22,7 @@
             <objectAnimator
                 android:duration="@android:integer/config_shortAnimTime"
                 android:propertyName="translationZ"
-                android:valueTo="@dimen/fab_press_translation_z"
+                android:valueTo="@dimen/fab_pressed_translation_z"
                 android:valueType="floatType" />
         </set>
     </item>
@@ -31,7 +31,7 @@
             <objectAnimator
                 android:duration="@android:integer/config_shortAnimTime"
                 android:propertyName="translationZ"
-                android:valueTo="0"
+                android:valueTo="0dp"
                 android:valueType="floatType" />
         </set>
     </item>
